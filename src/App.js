@@ -4,14 +4,12 @@ import CounterHooks from './CounterHooks'
 import Toggler from './Toggler'
 import SimpleFormHooks from './SimpleFormHooks'
 import Clicker from './Clicker'
+import SWMovies from './SWMovies'
 
 function App() {
   return (
     <div className="App">
-      <CounterHooks />
-      <Toggler />
-      <SimpleFormHooks />
-      <Clicker />
+      <SWMovies />
     </div>
   );
 }
