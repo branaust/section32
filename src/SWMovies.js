@@ -14,7 +14,7 @@ function SWMovies() {
     return (
         <div>
             <h1>Pick A Movie</h1>
-            <h4>You chose the movie {movie.title}</h4>
+            <h4>{movie.title}</h4>
             <p>{movie.opening_crawl}</p>
             <select value={number} onChange={e => setNumber(e.target.value)}>
                 <option value="1">1</option>
